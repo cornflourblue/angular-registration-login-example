@@ -39,7 +39,7 @@
         }
 
         function Delete(id) {
-            return $http.delete('/api/users/' + user.id).then(handleSuccess, handleError('Error deleting user'));
+            return $http.delete('/api/users/' + id).then(handleSuccess, handleError('Error deleting user'));
         }
 
         // private functions
