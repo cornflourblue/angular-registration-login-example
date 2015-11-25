@@ -1,6 +1,5 @@
 ﻿<div class="col-md-6 col-md-offset-3">
     <h2>Login</h2>
-    <div ng-show="vm.error" class="alert alert-danger">{{vm.error}}</div>
     <form name="form" ng-submit="vm.login()" role="form">
         <div class="form-group" ng-class="{ 'has-error': form.username.$dirty && form.username.$error.required }">
             <label for="username">Username</label>
